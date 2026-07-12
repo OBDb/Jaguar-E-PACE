@@ -1,0 +1,13 @@
+references:
+  - "https://en.wikipedia.org/wiki/Jaguar_E-Pace"
+
+generations:
+  - name: "First Generation (X540)"
+    start_year: 2017
+    end_year: 2020
+    description: "The Jaguar E-PACE is a compact luxury crossover SUV and the smallest SUV in Jaguar's lineup, revealed in July 2017 and entering production later that year. Unlike the larger F-PACE, which uses Jaguar's aluminium-intensive iQ[Al] architecture, the E-PACE is built on the steel-based D8 platform derived from the Land Rover Discovery Sport and Range Rover Evoque, giving it a transverse engine layout and standard all-wheel drive on most variants. Styling borrowed heavily from the F-TYPE sports car, with a sculpted front end, muscular haunches, and a coupe-like roofline that emphasized the model's sporting intent. Powertrains consisted of Jaguar's Ingenium family of 2.0-litre turbocharged four-cylinder petrol and diesel engines in various states of tune, paired with a nine-speed automatic transmission and, in most markets, Active Driveline all-wheel drive. The interior echoed the driver-focused layout of Jaguar's sports cars, with a grab handle on the centre console, available Touch Pro infotainment, and a range of premium materials and configurable ambient lighting. Marketed as a practical yet dynamic entry point into the Jaguar brand, the E-PACE targeted premium compact crossover rivals such as the Audi Q3, BMW X1, and Mercedes-Benz GLA."
+
+  - name: "First Generation (X540) Facelift"
+    start_year: 2021
+    end_year: null
+    description: "A comprehensive mid-cycle update was revealed in late 2020 for the 2021 model year, bringing revised styling, updated technology, and electrified powertrains. The exterior received new front and rear bumpers, slimmer LED headlights, and a redesigned grille, while the interior was substantially reworked with a new centre console, a larger 11.4-inch curved Pivi Pro infotainment touchscreen, and improved materials to address earlier criticism of cabin quality. The most significant change under the skin was the migration to the updated Premium Transverse Architecture, which enabled the addition of a 1.5-litre three-cylinder plug-in hybrid (P300e) variant offering meaningful electric-only range, alongside mild-hybrid 48-volt versions of the existing 2.0-litre four-cylinder engines. Wireless smartphone connectivity, over-the-air software updates, and an expanded suite of driver assistance systems were introduced, keeping the E-PACE competitive in the premium compact crossover segment through the remainder of its production life."
