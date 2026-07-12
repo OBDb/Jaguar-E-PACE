@@ -1,4 +1,79 @@
 { "commands": [
-
+{ "hdr": "732", "dbg": true, "cmd": {"22": "D928"}, "freq": 1,
+  "signals": [
+    {"id": "EPACE_PARKED", "path": "Movement", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "noyes" }, "name": "Parked?"}
+  ]},
+{ "hdr": "733", "dbg": true, "cmd": {"22": "9924"}, "freq": 30,
+  "signals": [
+    {"id": "EPACE_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Outside temperature"}
+  ]},
+{ "hdr": "751", "rax": "759", "cmd": {"22": "2076"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "EPACE_TP_FL", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 3.5, "mul": 0.01373, "unit": "bars" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "751", "rax": "759", "cmd": {"22": "2077"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "EPACE_TP_FR", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 3.5, "mul": 0.01373, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "751", "rax": "759", "cmd": {"22": "2078"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "EPACE_TP_RR", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 3.5, "mul": 0.01373, "unit": "bars" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "751", "rax": "759", "cmd": {"22": "2079"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "EPACE_TP_RL", "path": "Tires", "fmt": {"bix": 8, "len": 8, "max": 3.5, "mul": 0.01373, "unit": "bars" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1172"}, "freq": 1,
+  "signals": [
+    {"id": "EPACE_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 15.9375, "mul": 625, "div": 10000, "unit": "volts" }, "name": "Battery voltage"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1670"}, "freq": 1,
+  "signals": [
+    {"id": "EPACE_FUEL_RAIL_P", "path": "Fuel", "fmt": { "len": 16, "max": 511992.1875, "mul": 78125, "div": 10000, "unit": "kilopascal" }, "name": "Fuel rail pressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "168E"}, "freq": 1,
+  "signals": [
+    {"id": "EPACE_FUEL_RAIL_T", "path": "Fuel", "fmt": { "len": 8, "max": 60.96, "min": -61.44, "mul": 48, "div": 100, "sign": true, "unit": "celsius" }, "name": "Fuel rail temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16C1"}, "freq": 1,
+  "signals": [
+    {"id": "EPACE_FLI", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 200, "div": 65535, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "4907"}, "freq": 5,
+  "signals": [
+    {"id": "EPACE_HVB_T", "path": "Battery", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "490C"}, "freq": 5,
+  "signals": [
+    {"id": "EPACE_HVB_CURR", "path": "Battery", "fmt": { "len": 16, "max": 1000, "min": -500, "div": 40, "sign": true, "unit": "amps" }, "name": "Current"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "4910"}, "freq": 5,
+  "signals": [
+    {"id": "EPACE_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "State of charge", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "4918"}, "freq": 3600,
+  "signals": [
+    {"id": "EPACE_HVB_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Battery state of health, average", "suggestedMetric": "stateOfHealth"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "DD01"}, "freq": 5,
+  "signals": [
+    {"id": "EPACE_ODOMETER", "path": "Movement", "fmt": { "len": 24, "max": 1000000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E4", "dbg": true, "cmd": {"22": "DD09"}, "freq": 0.1,
+  "signals": [
+    {"id": "EPACE_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle Speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4903"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "EPACE_HVB_CELL_V_MAX", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Cell voltage, maximum"}
+  ]},
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "4904"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "EPACE_HVB_CELL_V_MIN", "path": "Battery", "fmt": { "len": 16, "max": 32767, "unit": "millivolts" }, "name": "Cell voltage, minimum"}
+  ]},
+{ "hdr": "7E4", "rax": "7EC", "cmd": {"22": "490F"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "EPACE_HVB_V", "path": "Battery", "fmt": { "len": 16, "max": 450, "div": 100, "unit": "volts" }, "name": "High voltage battery voltage"}
+  ]}
 ]
 }

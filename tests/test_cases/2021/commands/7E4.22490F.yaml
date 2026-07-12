@@ -1,0 +1,14 @@
+command_id: 7E4.22490F
+test_cases:
+- expected_values:
+    JAGUAR_HVB_V: 23.91
+  response: 7EC0562490F0957
+- expected_values:
+    JAGUAR_HVB_V: 46.07
+  response: 7EC0562490F11FF
+- expected_values:
+    JAGUAR_HVB_V: 46.08
+  response: 7EC0562490F1200
+- expected_values:
+    JAGUAR_HVB_V: 49.13
+  response: 7EC0562490F1331
