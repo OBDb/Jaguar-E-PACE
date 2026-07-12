@@ -1,0 +1,8 @@
+command_id: '751.222079'
+test_cases:
+- expected_values:
+    JAGUAR_TP_RL: 3.06179
+  response: 7590562207900DF
+- expected_values:
+    JAGUAR_TP_RL: 3.2952
+  response: 7590562207900F0

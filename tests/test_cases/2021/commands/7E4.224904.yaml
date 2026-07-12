@@ -1,0 +1,11 @@
+command_id: 7E4.224904
+test_cases:
+- expected_values:
+    JAGUAR_HVB_CELL_V_MIN: 3253
+  response: 7EC056249040CB5
+- expected_values:
+    JAGUAR_HVB_CELL_V_MIN: 3325
+  response: 7EC056249040CFD
+- expected_values:
+    JAGUAR_HVB_CELL_V_MIN: 3344
+  response: 7EC056249040D10
