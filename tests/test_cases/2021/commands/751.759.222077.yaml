@@ -1,8 +1,8 @@
-command_id: '751.222077'
+command_id: 751.759.222077
 test_cases:
 - expected_values:
-    JAGUAR_TP_FR: 3.11671
+    EPACE_TP_FR: 3.11671
   response: '7590562207700E3'
 - expected_values:
-    JAGUAR_TP_FR: 3.35012
+    EPACE_TP_FR: 3.35012
   response: 7590562207700F4
